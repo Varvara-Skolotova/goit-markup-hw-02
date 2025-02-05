@@ -1,0 +1,107 @@
+.body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.logo {
+}
+
+.logo-text {
+}
+
+/* Header */
+
+.header {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-link {
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
+
+/* Hero */
+
+.business {
+}
+.business-titel {
+}
+.business-btn {
+}
+
+/* Advantages */
+
+.advantages {
+}
+.advantages-h {
+}
+.advantages-list {
+}
+.advantages-list-item {
+}
+.advantages-titel {
+}
+.advantages-text {
+}
+
+/* Team */
+
+.team {
+}
+.team-titel {
+}
+.team-list {
+}
+.team-list-iteam {
+}
+.team-foto {
+}
+.team-list-titel {
+}
+.team-text {
+}
+
+/* Portfolio */
+
+.portfolio {
+}
+.portfolio-titel {
+}
+.portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-foto {
+}
+.portfolio-list-titel {
+}
+.portfolio-text {
+}
+
+/* Footer */
+
+.footer {
+}
+.footer-text {
+}
