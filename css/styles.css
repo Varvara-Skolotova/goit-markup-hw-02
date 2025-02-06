@@ -17,6 +17,7 @@ button {
 }
 
 .logo {
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03em;
@@ -72,6 +73,7 @@ button {
   background-color: #2e2f42;
 }
 .business-titel {
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
@@ -79,13 +81,20 @@ button {
   color: #fff;
 }
 .business-btn {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
+  cursor: pointer;
 }
 
+.business-btn:hover,
+.business-btn:focus {
+  background-color: #404bbf;
+}
 /* Advantages */
 
 .advantages {
@@ -97,25 +106,55 @@ button {
 .advantages-list-item {
 }
 .advantages-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .advantages-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Team */
 
 .team {
+  background-color: #f4f4fd;
 }
 .team-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-list {
 }
 .team-list-iteam {
 }
 .team-foto {
+  background: url('path_to_image');
 }
 .team-list-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
 
 /* Portfolio */
@@ -123,21 +162,44 @@ button {
 .portfolio {
 }
 .portfolio-titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
 .portfolio-list-item {
 }
 .portfolio-foto {
+  background: url('path_to_image');
 }
 .portfolio-list-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Footer */
 
 .footer {
+  background-color: #2e2f42;
 }
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
